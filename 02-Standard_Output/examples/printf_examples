@@ -1,0 +1,5 @@
+#!/bin/bash
+
+printf '%s = %d\n' Lines $LINES
+printf '%-10.10s = %4.2f\n' 'GigaHerz' 1.92735
+printf '%s %s' next prompt

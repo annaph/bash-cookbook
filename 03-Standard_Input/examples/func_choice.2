@@ -1,0 +1,16 @@
+#!/bin/bash
+
+source func_choice.1
+
+until [ "$CHOICE" = "y" ]; do
+	printf "%b" "This package's date is $THISPACKAGE\n" 1>&2
+	choice "Is this correct? [Y/,<New date>]: "
+
+	if [ -z "$CHOICE" ]; then
+		CHOICE="y"
+	elif [ "$CHOICE" != "y" ]; then
+		printf "%b" "Overriding $THISPACKAGE with $CHOICE\n"
+		THISPACKAGE=$CHOICE
+	fi
+done
+

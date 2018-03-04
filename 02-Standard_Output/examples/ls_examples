@@ -1,0 +1,4 @@
+#!/bin/bash
+
+ls -C > save.out
+ls -1 > save1.out

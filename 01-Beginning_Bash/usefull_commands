@@ -1,0 +1,133 @@
+--------------------------------------------------------------------------------------------------
+Showing Where You Are
+
+1. Showing where you are:
+	# pwd
+
+2. Display logical path:
+	# pwd -L
+	
+   Option 'L' in default
+	
+3. Display physical path:
+	# pwd -P
+
+--------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+Finding and Running Commands
+Use 'type' command to search all environmnet or 'which' command to search only $PATH.
+
+1. Find command:
+	# type <command_name>
+   or:
+   	# which <command_name>
+	
+2. Find command (do not stop at first match):
+	# type -a <command_name>
+   or:
+   	# which -a <command_name>
+	
+3. Search manpage names and descriptions:
+	# apropos <command_regular expression>
+   or:
+   	# man -k <command_regular expression>
+	
+4. Find files by name:
+	# locate <filename>
+   Note: 'locate' consults database files about the system!
+
+--------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+Getting Information About Files
+
+1. List directory contents:
+	# echo *
+   or:
+	# ls
+   Useful options:
+   	-a
+		Do not hide files starting with . (dot)
+	-F
+		Show the type of file with one of these trailing type designators: /*@%=|
+	-l
+		Long listing
+	-L
+		Show information about the linked file, rather than the symbolic link itself
+	-R
+		Recurse though subdirectories
+	-S
+		Sort by file size
+	-1
+		Short format but only one file per line
+	-d
+		List directories themselves, not their contents
+
+2. Display file status:
+	# stat <filename>
+   Useful options:
+    -c FORMAT
+	 	Use the specified FORMAT instead of the default
+
+3. Determine file type:
+	# file <filename>
+   Useful options:
+    -b
+		Do not prepend filenames to output lines (brief mode)
+		
+--------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+Showing All Hidden (dot) Files in the Current Directory
+
+1. Show all hidden files:
+	# s -d .[!.]*
+	
+--------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+Using Shell Quoting
+
+1. Use single quotes to avoid shell expansion and substitution, e.g.:
+	# echo 'A coffee is $5?!'
+
+2. Use double quotes or unquoted text to have shell expansion and substitution, e.g.:
+	# echo "A coffee is $5?!"
+   or:
+   	# echo A coffee is $5?!
+   
+--------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+Using or Replacing Built-ins and External Commands
+
+1. List all shell built-ins and their enabled or disabled status:
+	# enable -a
+	
+2. Display help about shell built-in:
+	# help <built-in_name>
+   Useful options:
+   	-s
+		Output only a short usage synopsis for each topic matching PATTERN
+		
+3. Turn off shell built-in:
+	# enable -n <built-in_name>
+	
+4. Turn on shell built-in:
+	# enable -a <built-in_name>
+	
+5. Force using shell built-in:
+	# command <built-in_name>
+	
+--------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+Setting bash As Your Default Shell
+
+1. Get a list of valid shells:
+	# cat /etc/shells
+	
+--------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------

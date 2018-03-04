@@ -1,0 +1,12 @@
+#!/bin/bash
+
+case "$-" in
+	*i*)
+		# Code for interactive shell here
+		echo "You Are Running Interactively"
+		;;
+	*)
+		# Code for non-interactive shell here
+		echo "You Are Not Running Interactively"
+		;;
+esac

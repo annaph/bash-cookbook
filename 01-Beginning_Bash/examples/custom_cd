@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd () {
+	builtin cd "$@"
+	#command cd "$@"
+	echo "$OLDPWD --> $PWD"
+}
