@@ -67,10 +67,10 @@ Throwing Output Away
 Saving or Grouping Output from Several Commands
 
 1. Run commands together:
-	{ <command1>; <command2>; <command3>; }
+	{ <command1> ; <command2> ; <command3> ; }
 
 2. Run commands together in a subshell:
-	(<command1>; <command2>; <command3>)
+	(<command1> ; <command2> ; <command3>)
 
 --------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------

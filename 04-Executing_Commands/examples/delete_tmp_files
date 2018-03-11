@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Prepare tmp files
+rm -rf mytmp
+mkdir mytmp
+touch mytmp/file.1
+touch mytmp/file.2
+touch mytmp/file.3
+
+# Main logic
+cd mytmp
+if [ $? -eq 0 ]; then
+	rm *
+fi
+
