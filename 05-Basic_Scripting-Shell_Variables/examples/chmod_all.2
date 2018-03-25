@@ -1,0 +1,10 @@
+#!/bin/bash
+#
+# change permissions on a bunch of files
+#
+for FN in "$@"
+do
+	echo "changing $FN"
+	chmod 750 "$FN"
+done
+

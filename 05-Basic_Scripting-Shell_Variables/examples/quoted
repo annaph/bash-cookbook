@@ -1,0 +1,5 @@
+#!/bin/bash
+# note the quotes
+
+ls -1 "${1}"
+
