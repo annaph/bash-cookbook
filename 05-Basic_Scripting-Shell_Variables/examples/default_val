@@ -1,7 +1,0 @@
-#!/bin/bash
-#
-# set default value to argument supplied on the command line
-#
-FILEDIR=${1:-"/tmp"}
-echo "Argument value: $FILEDIR"
-

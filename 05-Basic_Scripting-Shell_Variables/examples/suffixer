@@ -1,8 +1,0 @@
-#!/bin/bash
-#
-# rename s that end in .bad to be .bash
-#
-for FN in bad_files/*.bad; do
-	mv "$FN" "${FN%bad}bash"
-done
-

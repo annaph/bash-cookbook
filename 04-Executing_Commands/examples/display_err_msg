@@ -1,4 +1,0 @@
-#!/bin/bash
-
-fdfdfsa || { printf "%b" "command failed. You're on your own\n" ; exit 33 ; }
-
