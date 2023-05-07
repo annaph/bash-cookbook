@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 # cookbook filename: multiple-redirects
 
 # Call like this:

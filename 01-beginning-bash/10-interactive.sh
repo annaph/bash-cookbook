@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 # cookbook filename: interactive
 
 echo "==> Shell option flags: $-"
