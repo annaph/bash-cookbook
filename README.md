@@ -7,7 +7,7 @@ This repository contains the code that goes with the **Bash Cookbook** book.
 
 The source code contains different modules for the following chapters:
 
-1. Chapter 1 - Beginning bash 
+1. Chapter 1 - Beginning bash  
    Module name: **01-beginning-bash**
 
 2. Chapter 2 - Standard output  
@@ -15,3 +15,6 @@ The source code contains different modules for the following chapters:
 
 3. Chapter 3 - Standard input  
    Module name: **03-standard-input**
+
+4. Chapter 4 - Executing Commands  
+   Module name: **04-executing-commands**
