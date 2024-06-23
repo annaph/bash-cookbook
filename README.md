@@ -18,3 +18,6 @@ The source code contains different modules for the following chapters:
 
 4. Chapter 4 - Executing Commands  
    Module name: **04-executing-commands**
+
+5. Chapter 5 - Shell Variables  
+   Module name: **04-shell-variables**
