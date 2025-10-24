@@ -20,4 +20,7 @@ The source code contains different modules for the following chapters:
    Module name: **04-executing-commands**
 
 5. Chapter 5 - Shell Variables  
-   Module name: **04-shell-variables**
+   Module name: **05-shell-variables**
+
+6. Chapter 6 - Shell Logic and Arithmetic  
+   Module name: **06-shell-arithmetic**
