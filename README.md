@@ -24,3 +24,6 @@ The source code contains different modules for the following chapters:
 
 6. Chapter 6 - Shell Logic and Arithmetic  
    Module name: **06-shell-arithmetic**
+
+7. Chapter 7 - Intermediate Shell Tools I  
+   Module name: **07-shell-tools-1**

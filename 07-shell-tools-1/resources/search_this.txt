@@ -1,0 +1,10 @@
+This files contains some test paragraphs.
+
+This a paragraph that contains a keyphrase.
+This paragraph is about Anna.
+Anna is a lovely person.
+   
+Stacey is an exceptional person.
+
+Nicole is a hard working person [keyphrase].
+She loves bash programming, :) :) :).
